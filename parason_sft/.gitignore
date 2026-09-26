@@ -1,0 +1,9 @@
+# Downloaded base model weights
+Qwen/
+# Local training outputs and checkpoints
+ckpts/
+output/
+wandb/
+Q3-8B-131072-SFT*
+# Generated synthetic datasets (from data/generate_math.py); data/*.py helpers stay tracked
+data/mult-*

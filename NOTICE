@@ -1,0 +1,19 @@
+Parason
+Copyright 2025-2026 The Parason Authors
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this project except in compliance with the License. A copy of the License is
+included in the LICENSE file at the root of this repository.
+
+This product includes third-party software:
+
+- verl (https://github.com/volcengine/verl)
+  Copyright 2023-2024 Bytedance Ltd. and/or its affiliates.
+  Licensed under the Apache License, Version 2.0.
+  The copy vendored under parason_rl/verl/ is a modified fork pinned at upstream
+  commit 0d4541f397828843525b3f3a7eadff03d56ff24c. The exact list of Parason
+  modifications is documented in parason_rl/MODIFICATIONS.md.
+
+- DeepScaleR / rllm (https://github.com/agentica-project/rllm)
+  Licensed under the Apache License, Version 2.0.
+  Adapted math-reward code is vendored under parason_rl/deepscaler/.
